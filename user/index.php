@@ -6,7 +6,7 @@
 </head>
 
 <body id="page-top">
-
+    
     <div id="wrapper">
 
         <?php include "sidebar.php"; ?>
@@ -18,7 +18,7 @@
                 <?php include "topbar.php"; ?>
 
                 <div class="container-fluid">
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <div style="color:black;" class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-white-800">Menu Utama</h1>
                     </div>
 

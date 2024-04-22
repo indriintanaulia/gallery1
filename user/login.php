@@ -49,32 +49,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
-<body background="./alam.jpg">
+<body style="background-image: url('alam.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"> 
 
     <div class="container">
 
         <div class="row justify-content-center">
             <div class="d-flex flex-column">
-                <h4 style="color:cyan;" class="mt-5 text-center">Album Gallery - Login</h4>
+
                 <div class="d-flex justify-content-center">
                     <img src="../img/logo.png" class="img-fluid" width="100" alt="">
                 </div>
             </div>
-            <div class="col-xl-10 col-lg-12 col-md-9 col-sm-12">
-
-                <div class="card o-hidden border-0 my-5">
+            <div class="col-xl-4 col-lg-12 col-md-6 col-sm-10">
+            <h4 style="color:cyan;" class="mt-5 text-center">Album Gallery - Login</h4>
+                <div style="background-color:blue" class="card o-hidden border-0 my-5">
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col">
                                 <div class="p-2">
-                                    <form class="user" method="POST" action="">
+                                    <form style="background-color:blue" class="user" method="POST" action="">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user" name="email" placeholder="Masukkan Email" required>
+                                            <input style="background-color:silver;border-color:blue;color:black" type="email" class="form-control form-control-user" name="email" placeholder="Masukkan Email" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" name="password" placeholder="Masukkan Password" required>
+                                            <input style="background-color:silver;border-color:blue;color:black" type="password" class="form-control form-control-user" name="password" placeholder="Masukkan Password" required>
                                         </div>
-                                        <button style="background-color:blue;border-color:blue;color:white" type="submit"S name="login" class="btn btn-primary btn-user btn-block">
+                                        <button style="background-color:black;border-color:blue;color:white" type="submit"S name="login" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </button>
                                     </form>
